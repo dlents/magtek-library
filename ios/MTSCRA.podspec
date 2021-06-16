@@ -1,14 +1,15 @@
 require "json"
 
-package = JSON.parse(File.read(File.join(__dir__, "../../package.json")))
+package = JSON.parse(File.read(File.join(__dir__, "../package.json")))
 
 Pod::Spec.new do |s|
   s.name         = 'MTSCRA'
   s.version      = package["version"]
-  s.summary      = "The Magtek iOS SDK"
-  s.homepage     = 'https://www.magtek.com/'
+  s.summary      = package["description"]
+  s.homepage     = package["homepage"]
+  s.license      = package["license"]
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/monoku/react-native-magtek.git", :tag => "#{s.version}" }
+  s.source       = { :git => package["repository"]["url"], :tag => "master" }
   s.author       = ''
   s.frameworks = %w(AVFoundation AudioToolbox CoreBluetooth ExternalAccessory)
   s.libraries = %w()
