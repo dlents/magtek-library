@@ -1,0 +1,11 @@
+{
+   "name": "@captina/magtek-library",
+   "version": "0.0.2",
+   "description": "The MagTek iOS SDK, with Xcode simulator support",
+   "repository": {
+      "type": "git",
+      "url": "git@bitbucket.org:captina/magtek-library.git"
+   },
+   "homepage": "https://www.magtek.com/",
+   "licence": "MIT"
+}
