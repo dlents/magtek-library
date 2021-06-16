@@ -1,5 +1,5 @@
 {
-   "name": "@captina/magtek-library",
+   "name": "@dlents/magtek-library",
    "version": "0.0.3",
    "description": "The MagTek iOS SDK, with Xcode simulator support",
    "repository": {
