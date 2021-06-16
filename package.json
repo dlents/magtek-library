@@ -4,7 +4,7 @@
    "description": "The MagTek iOS SDK, with Xcode simulator support",
    "repository": {
       "type": "git",
-      "url": "git@bitbucket.org:captina/magtek-library.git"
+      "url": "git+https://github.com/dlents/magtek-library.git"
    },
    "homepage": "https://www.magtek.com/",
    "licence": "MIT"
