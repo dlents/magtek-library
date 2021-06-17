@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
   s.license      = package["license"]
   s.platform     = :ios
-  s.source       = { :git => package["repository"]["url"], :branch => "master" }
+  s.source       = { :git => package["repository"]["url"], :branch => "master", :tag => s.version.to_s }
   s.author       = ''
   s.frameworks = %w(AVFoundation AudioToolbox CoreBluetooth ExternalAccessory)
   s.libraries = %w()
