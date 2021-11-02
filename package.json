@@ -1,6 +1,6 @@
 {
    "name": "@dlents/magtek-library",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "description": "The MagTek iOS SDK, with Xcode simulator support",
    "repository": {
       "type": "git",
